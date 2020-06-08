@@ -55,7 +55,7 @@ export default ({ employees }) => {
       <div>
         <input type="button" value="PREV" onClick={onPrevClick} />
         <input type="button" value="NEXT" onClick={onNextClick} />
-
+        {"    "}PageSize:
         <select value={pageSize} onChange={onPageSizeChange}>
           <option value="5">5</option>
           <option value="10">10</option>
